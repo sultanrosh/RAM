@@ -190,8 +190,8 @@ Testbench for `singleRam` module.
 * Importance of write enable, address buses, and clock domains.
 * Functional testbench construction and waveform debugging.
 
----
+  ---
 
-For questions, waveform analysis help, or improvements (e.g., arbitration logic or parameterization), reach out or check Verilog documentation or FPGA vendor resources (Xilinx, Intel, Lattice).
+  **Project By**: *Kourosh Rashidiyan*
 
-Happy coding! 🚀
+  ---
