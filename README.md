@@ -192,6 +192,6 @@ Testbench for `singleRam` module.
 
   ---
 
-  **Project By**: *Kourosh Rashidiyan*
-
-  ---
+## 👤 Author
+**Kourosh Rashidiyan**
+🗓️ June 2025
