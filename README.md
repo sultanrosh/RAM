@@ -4,15 +4,15 @@ This README provides a **deep, detailed explanation** of the Verilog implementat
 
 ---
 
-## 📦 Overview of RAM Architectures
+## Overview of RAM Architectures
 
-### 🔁 Single-Port RAM
+### Single-Port RAM
 
 * **One port** handles both read and write.
 * Only one operation (read or write) can occur per clock cycle.
 * Requires **careful address registration** for read-after-write consistency.
 
-### 🔄 Dual-Port RAM
+### Dual-Port RAM
 
 * **Two independent ports (A and B)**: each can read or write simultaneously.
 * Useful in applications where two masters (e.g., CPU + DMA controller) access memory.
@@ -20,7 +20,7 @@ This README provides a **deep, detailed explanation** of the Verilog implementat
 
 ---
 
-## 🧠 Conceptual Summary
+## Conceptual Summary
 
 ### Memory:
 
@@ -44,7 +44,7 @@ This README provides a **deep, detailed explanation** of the Verilog implementat
 
 ---
 
-## 📘 File 1: dual\_port\_ram.v
+## File 1: dual\_port\_ram.v
 
 ### Functionality:
 
@@ -64,7 +64,7 @@ This module allows **two independent ports (A and B)** to simultaneously **read 
 
 ---
 
-## 🧪 File 2: dual\_port\_ram\_tb.v
+## File 2: dual\_port\_ram\_tb.v
 
 ### Purpose:
 
@@ -84,7 +84,7 @@ Testbench that stimulates the `dual_port_ram` module.
 
 ---
 
-## 📘 File 3: singleRam.v
+## File 3: singleRam.v
 
 ### Functionality:
 
@@ -99,7 +99,7 @@ Implements a **single-port RAM** with a 1-cycle **read delay** due to `addr_reg`
 
 ---
 
-## 🧪 File 4: single\_port\_ram\_tb.v
+## File 4: single\_port\_ram\_tb.v
 
 ### Purpose:
 
@@ -119,7 +119,7 @@ Testbench for `singleRam` module.
 
 ---
 
-## 🛠️ Tools and Setup
+## Tools and Setup
 
 * **Simulator**: Icarus Verilog (recommended) or ModelSim.
 * **Waveform Viewer**: GTKWave.
@@ -136,7 +136,7 @@ Testbench for `singleRam` module.
 
 ---
 
-## 🧪 How to Run Simulation
+## How to Run Simulation
 
 1. **Compile** the design and testbench:
 
@@ -164,7 +164,7 @@ Testbench for `singleRam` module.
 
 ---
 
-## 📌 Final Notes
+## Final Notes
 
 * **Memory Safety**:
 
@@ -183,7 +183,7 @@ Testbench for `singleRam` module.
 
 ---
 
-## ✅ Learning Outcomes
+## Learning Outcomes
 
 * Understanding of RAM hardware architecture.
 * Read/Write timing with Verilog simulation.
@@ -192,6 +192,6 @@ Testbench for `singleRam` module.
 
   ---
 
-## 👤 Author
+## Author
 **Kourosh Rashidiyan**
-🗓️ June 2025
+**June 2025**
